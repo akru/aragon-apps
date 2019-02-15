@@ -1,0 +1,10 @@
+{
+  "name": "Karma",
+  "description": "Manage DAO token as karma points.",
+  "icons": [{
+    "src": "images/icon.svg",
+    "sizes": "192x192"
+  }],
+  "script": "/script.js",
+  "start_url": "/index.html"
+}

@@ -1,0 +1,33 @@
+{
+  "environments": {
+    "default": {
+      "registry": "0x5f6f7e8cc7346a11ca2def8f827b7a0b612c56a1",
+      "appName": "karma.aragonpm.eth",
+      "network": "rpc"
+    }
+  },
+  "roles": [
+    {
+      "name": "Up person karma",
+      "id": "UP_KARMA_ROLE",
+      "params": [
+        "Person address"
+      ]
+    },
+    {
+      "name": "Avoid person karma",
+      "id": "AVOID_KARMA_ROLE",
+      "params": [
+        "Person address"
+      ]
+    },
+    {
+      "name": "Person who can publish posts",
+      "id": "AUTHOR_ROLE",
+      "params": [
+        "Author address"
+      ]
+    }
+  ],
+  "path": "contracts/Karma.sol"
+}
